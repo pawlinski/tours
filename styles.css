@@ -407,7 +407,7 @@ footer {
     }
 
     .main-message {
-        transform: translateY(70%);
+        transform: translateY(50%);
     }
 
     .title-heading h1 {
@@ -426,5 +426,16 @@ footer {
         height: 22.7rem;
         background: url('images/wave-large-reversed.png');
         background-size: cover;
+    }
+
+    .testimonial {
+        top: 65%;
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 75vh;
     }
 }
