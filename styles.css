@@ -252,7 +252,7 @@ nav {
 
 .testimonials {
     width: 100%;
-    height: 80vh;
+    height: 45rem;
     background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%), url('images/testimonials-bg.jpg') center no-repeat fixed;
     background-size: cover;
     position: relative;
@@ -273,7 +273,7 @@ nav {
     width: 100%;
     color: #fafafa;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -403,7 +403,7 @@ footer {
     }
 
     .hero {
-        height: 80vh;
+        height: 45rem;
     }
 
     .main-message {
@@ -413,9 +413,17 @@ footer {
     .title-heading h1 {
         font-size: 2.5rem;
     }
+
+    .testimonials {
+        height: 45rem;
+    }
 }
 
 @media screen and (min-width: 950px) {
+    .hero {
+        height: 55rem;
+    }
+
     .hero::before {
         height: 22.7rem;
         background: url('images/wave-large.png');
@@ -426,6 +434,10 @@ footer {
         height: 22.7rem;
         background: url('images/wave-large-reversed.png');
         background-size: cover;
+    }
+
+    .testimonials {
+        height: 55rem;
     }
 
     .testimonial {
